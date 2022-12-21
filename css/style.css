@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+#header{
+    background: grey;
+    width: 100%;
+    height: 80px;
+
+}
+#header-img{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#nav-bar{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+#nav-bar .nav-link{
+    color: white;
+    margin-right: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+#video{
+    width:80%;
+    height: 410px;
+    margin-top: 5rem;
+    align-items: center;
+    margin-left: 8rem;
+}
+#form{
+    background: rgb(198, 194, 194);
+    height: 80px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+#form #email{
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#form #submit{
+    background: green;
+    color: #fafafa;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+footer{
+    background: gray;
+    height: 100px;
+    display: flex;
+    margin-top: 34rem;
+    gap: 25rem;
+    padding-left: 10rem;
+    padding-top: 20px;
+}
+#author  p{
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#media img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+#media #logo{
+    display: flex;
+    gap: 5rem;
+}
+#media #logo h4{
+    color: white;
+}
+
+@media(max-width: 1020px){
+    #nav-bar .nav-link{
+        margin-right: 1rem;
+    }
+    #footer{
+        gap: 10rem;
+    }
+}
+
+@media(max-width: 906px){
+    #footer{
+        gap: 10px;
+        padding-left: 3rem;
+    
+
+    }
+    #author  p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    #media #logo{
+        gap: 1rem;
+        padding-left: 5rem;
+    }
+    #video{
+        margin-left: 3.3rem;
+    }
+
+}
